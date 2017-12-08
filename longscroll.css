@@ -2,15 +2,17 @@
 
 }
 #canvas{
-  width:5000px;
-  height:5000px;
+  width:500px;
+  height:700px;
   margin:0 auto;
+padding-bottom: 200px;
   position:relative;
 
 }
 html {
-    height: 5500px;
-    width: 1000px;
+    height: 700px;
+    width: 500px;
+      margin-top: 40px;
     margin:auto;
     background-image: url('backbackground.gif');
     background-position:center;
@@ -24,6 +26,8 @@ body {
   background-size: cover;
     min-height: 100%;
     margin:0px;
+      margin-top: 40px;
+      padding-bottom: 800px;
 }
 
 
@@ -39,11 +43,12 @@ a {
 
 
 .container {
-  width: 1000px;
-  min-height: 10000px;
+  width: 300px;
+  min-height: 900px;
   margin: 0 auto;
   margin-bottom: 0px;
   padding-bottom: 0px;
+
 }
 
 .stickyImage {
@@ -75,40 +80,43 @@ align-content: center;
 .sectionText {
   align: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgba(255,255,255,0.5) ;
   color: #8B008B;
   line-height: 1.25;
   padding: 50px, 50px, 50px 50px;
+
 }
 
 .sectionNumberContainer {
   text-align: right;
+
 }
 
 .sectionNumber {
   align: right;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 10px;
   padding: 20px;
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   background-color: #FF00FF;
 }
 
 .sectionImage {
-  width: 20%;
-  height: 80px;
+  width: 80%;
+  height: 80%;
   opacity: 0.8;
+  position: absolute;
   margin-bottom: 24px;
   background-size: cover;
-  background-position: center;
+  background-position: absolute;
   background-repeat: no-repeat;
 }
 
 
 #Candy_Gears {
-position:left;width:100%;height:100%;margin:0;z-index:2000;
+position:absolute;top:3100px;;width:80%;height:80%;right:480px;
 }
 
 	.Candy_Red{fill:#CA2128;}
@@ -117,35 +125,25 @@ position:left;width:100%;height:100%;margin:0;z-index:2000;
 
 
 .sectionImage.intro { background-image: url('clouds0000001.gif');
-position: right;
-width: 90%;}
+position:fixed;top:0px;;width:80%;height:40%;left:-700px;}
 .sectionImage.step1 { background-image: url('clouds000001.gif');
-position: left;
-width: 90%;}
+position:fixed;top:0px;;width:80%;height:40%;right:-700px;}
 .sectionImage.step2 { background-image: url('clouds000001.gif');
-position: center;
-width: 90%;}
+position:fixed;top:100px;;width:80%;height:40%;left:-500px;}
 .sectionImage.step3 { background-image: url('clouds01.gif');
-position: right;
-width: 90%;}
+position:fixed;top:100px;;width:40%;height:40%;right:-500px;}
 .sectionImage.step4 { background-image: url('clouds1.gif');
-position: left;
-width: 90%;}
+position:fixed;top:200px;;width:40%;height:40%;left:-200px;}
 .sectionImage.step5 { background-image: url('clouds5.gif');
-position: center;
-width: 90%;}
+position:fixed;top:200px;;width:40%;height:40%;right:-200px;}
 .sectionImage.step6 { background-image: url('clouds4.gif');
-position: right;
-width: 90%;}}
+position:fixed;top:300px;;width:40%;height:40%;right:-50px;}
 .sectionImage.step7 { background-image: url('clouds3.gif');
-position: left;
-width: 90%;}}
+position:fixed;top:300px;;width:40%;height:40%;right:-50px;}
 .sectionImage.step8 { background-image: url('clouds2.gif');
-position: center;
-width: 90%;}}
+position:fixed;top:400px;;width:40%;height:40%;left:-250px;}
 .sectionImage.step9 { background-image: url('castle.gif');
-position: right;
-width: 90%;}}
+position:fixed;top:400px;;width:40%;height:40%;right:-250px;}
 
 .separator {
   position: relative;
