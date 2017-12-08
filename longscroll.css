@@ -1,0 +1,155 @@
+
+
+}
+#canvas{
+  width:5000px;
+  height:5000px;
+  margin:0 auto;
+  position:relative;
+
+}
+html {
+    height: 5500px;
+    width: 1000px;
+    margin:auto;
+    background-image: url('backbackground.gif');
+    background-position:center;
+    background-repeat: repeat;
+    background-size: repeat;
+}
+body {
+  background-image: url('candylandbackground.gif');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+    min-height: 100%;
+    margin:0px;
+}
+
+
+
+* {
+  font-family: 'Emilys Candy', cursive;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  width: 1000px;
+  min-height: 10000px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.stickyImage {
+  position: left;
+  right: 16px;
+  bottom: 16px;
+  width: 75px;
+  height: 75px;
+
+  opacity: 0;
+  transition: fly;
+
+}
+
+.img.sticky
+  opacity: 1;
+}
+
+.section {
+align-content: center;
+  width: 50%;
+
+
+
+  /*height: 2000px;*/
+  /*margin-bottom: 48px;*/
+}
+
+.sectionText {
+  align: center;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(255,255,255,0.5) ;
+  color: #8B008B;
+  line-height: 1.25;
+  padding: 50px, 50px, 50px 50px;
+}
+
+.sectionNumberContainer {
+  text-align: right;
+}
+
+.sectionNumber {
+  align: right;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  font-size: 40px;
+  color: white;
+  background-color: #FF00FF;
+}
+
+.sectionImage {
+  width: 20%;
+  height: 80px;
+  opacity: 0.8;
+  margin-bottom: 24px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#Candy_Gears {
+position:left;width:100%;height:100%;margin:0;z-index:2000;
+}
+
+	.Candy_Red{fill:#CA2128;}
+	.Candy_White{fill:#FFFFFF;}
+
+
+
+.sectionImage.intro { background-image: url('clouds0000001.gif');
+position: right;
+width: 90%;}
+.sectionImage.step1 { background-image: url('clouds000001.gif');
+position: left;
+width: 90%;}
+.sectionImage.step2 { background-image: url('clouds000001.gif');
+position: center;
+width: 90%;}
+.sectionImage.step3 { background-image: url('clouds01.gif');
+position: right;
+width: 90%;}
+.sectionImage.step4 { background-image: url('clouds1.gif');
+position: left;
+width: 90%;}
+.sectionImage.step5 { background-image: url('clouds5.gif');
+position: center;
+width: 90%;}
+.sectionImage.step6 { background-image: url('clouds4.gif');
+position: right;
+width: 90%;}}
+.sectionImage.step7 { background-image: url('clouds3.gif');
+position: left;
+width: 90%;}}
+.sectionImage.step8 { background-image: url('clouds2.gif');
+position: center;
+width: 90%;}}
+.sectionImage.step9 { background-image: url('castle.gif');
+position: right;
+width: 90%;}}
+
+.separator {
+  position: relative;
+  width: 90%;
+  height: 5px;
+  margin: 60px auto;
+}
